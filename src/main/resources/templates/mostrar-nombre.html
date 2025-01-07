@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Nombre Guardado</title>
 </head>
 <body>
-$END$
+<h1>¡Hola, <span th:text="${nombre}"></span>!</h1>
+<p>Tu nombre ha sido guardado en esta sesión.</p>
 </body>
 </html>

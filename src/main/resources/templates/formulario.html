@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Formulario de Nombre</title>
 </head>
 <body>
-$END$
+<h1>Introduce tu Nombre</h1>
+<form action="/guardar-nombre" method="POST">
+  <label for="name">Nombre:</label>
+  <input type="text" id="name" name="name" required>
+  <button type="submit">Guardar</button>
+</form>
 </body>
 </html>

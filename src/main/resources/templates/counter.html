@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Contador de Sesiones</title>
 </head>
 <body>
-$END$
+<h1>Contador de Visitas</h1>
+<p>Has visitado esta página <span th:text="${count}"></span> veces en esta
+  sesión.</p>
 </body>
 </html>
