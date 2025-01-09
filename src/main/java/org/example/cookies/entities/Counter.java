@@ -1,6 +1,7 @@
 package org.example.cookies.entities;
 
-import java.io.Serializable; public class Counter implements Serializable {
+import java.io.Serializable;
+public class Counter implements Serializable {
     private int count;
     public int getCount() {
         return count;

@@ -2,6 +2,7 @@ package org.example.cookies.entities;
 
 import java.io.Serializable;
 
+
 public class Usuario implements Serializable {
     private String nombre;
 
